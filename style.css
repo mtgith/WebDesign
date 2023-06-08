@@ -29,7 +29,7 @@ body {
    transform: translate(-50%, -50%);
    top: 50%;
    left: 50%;
-   background-image: url("Images&Icons/picture.svg");
+   background-image: url("picture.svg");
    background-repeat: no-repeat;
    background-size: 85% 100%;
    width: 85%;
@@ -108,7 +108,7 @@ body {
 input[type = "text"]::placeholder {color: rgba(0, 0, 0, 0.6);} 
 
 #back-arrow {
-   background-image: url("Images&Icons/backwardsarrow.svg");
+   background-image: url("backwardsarrow.svg");
    background-repeat: no-repeat;
    background-size: 5vw 2vh;
    width: 5vw;
@@ -121,7 +121,7 @@ input[type = "text"]::placeholder {color: rgba(0, 0, 0, 0.6);}
 }
 
 #forward-arrow {
-   background-image: url("Images&Icons/forwardarrow.svg");
+   background-image: url("forwardarrow.svg");
    background-repeat: no-repeat;
    background-size: 5vw 2vh;
    width: 5vw;
