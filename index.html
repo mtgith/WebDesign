@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+      <link rel = "stylesheet" href = "style.css">
+      <script src = "script.js"></script>
+      <title>The Autobiography Of Michael Toppin</title>
+   </head>
+
+   <body>
+      <div class = "main">
+         <div class = "left-container">
+            <div class = "picture"></div>
+         </div>
+
+         <div id = "content" class = "right-container">
+            <br><br>
+            <p id = "page-num-top">Toppin 1</p>
+            <div class = "text">
+               <div class = "header">
+                  <h1 id = "chapter-num">Chapter One</h1>
+                  <p id = "chapter-name">My Childhood</p>
+               </div>
+
+               <p id = "chapter-text">My childhood is one of a rocky start of my journey into becoming the man I am today. For starters, my childhood was composed of a split parenthood lifestyle, where I’d live the majority of the time with my mom. My childhood was one of great confusion on both sides of my parenting, which resulted in me having to grow up at a very young age, but, I don’t regret this because it allowed me to pursue my passion with no distracting effects. As a child, I’d always go to Radio Shack and buy random cables in an attempt to make a “Homemade DJ Kit”; and after many attempts, I was finally successful in rigging together a “DJ Kit” with my first computer and some random boomboxes I found at Best Buy. This is how I knew I wanted to be an engineer. As a child, I never really participated in normal activities; I never trick or treated, or went to theme parks. I was always reading books, more specifically about technology, science, or most importantly for me at least; Steve Jobs, and his legacy at Apple. Steve Jobs is a huge inspiration for me because he showed me, that through sheer motivation and work, and dedication to the advancement of technology; you can truly make a large change in society.</p>
+            </div>
+            
+            <div class = "page-controls">
+               <div id = "back-arrow" onclick = "setNewPage('back')"></div>
+               <input id = "page-input" onkeydown = "setPage(this)" type = "text" placeholder = "1">
+               <div id = "forward-arrow" onclick = "setNewPage('forward')"></div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

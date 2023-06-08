@@ -1,0 +1,143 @@
+body {
+   background-color: #CBCBCB;
+   margin: 0;
+}
+
+.main {
+   display: flex;
+   width: 100%;
+   height: 100%;
+}
+
+.left-container {
+   background-color: #D4D4D4;
+   width: 50vw;
+   height: 100vh;
+   box-shadow: 1px 0px 14px 4px rgba(98, 98, 98, 0.69);
+}
+
+.right-container {
+   width: 50vw;
+   height: 100vh;
+   opacity: 1;
+   transition: 0.3s ease;
+}
+
+.picture {
+   position: relative;
+   margin: 0 auto;
+   transform: translate(-50%, -50%);
+   top: 50%;
+   left: 50%;
+   background-image: url("Images&Icons/picture.svg");
+   background-repeat: no-repeat;
+   background-size: 85% 100%;
+   width: 85%;
+   height: 100%;
+}
+
+#page-num-top {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 20px;
+   text-align: center;
+   position: absolute;
+   transform: translate(-95%, -2%);
+   top: 2%;
+   left: 95%;
+}
+
+#chapter-num {
+   font-family: PT Sans;
+   font-size: 40px;
+   text-align: center;
+   transform: translateY(40%);
+   top: 40%;
+   position: relative;
+}
+
+#chapter-name {
+   font-family: PT Sans;
+   font-size: 32px;
+   font-style: italic;
+   text-align: center;
+   position: relative;
+   top: -5px;
+}
+
+.text {
+   height: 80%;
+   width: 80%;
+   margin: auto;
+   position: relative;
+   transform: translateY(-20%); 
+   top: 20%;
+   overflow-y: scroll;
+   overflow-x: hidden;
+}
+.text::-webkit-scrollbar {display: none;}
+.text {
+   -ms-overflow-style: none;  
+   scrollbar-width: none;  
+ }
+
+.page-controls {
+   width: 83%;
+   height: 5%;
+   top: 7vh;
+   transform: translateX(-50%);
+   left: 50%;
+   position: relative;
+}
+
+#page-input {
+   width: 8%;
+   height: 75%;
+   position: relative;
+   transform: translate(-50%, -18%);
+   top: -18%;
+   left: 50%;
+   border: 2px solid #ABABAB;
+   border-radius: 8px;
+   font-family: PT sans;
+   font-size: 20px;
+   letter-spacing: 0.7px;
+   text-align: center;
+   background: transparent;
+   outline: none;
+}
+input[type = "text"]::placeholder {color: rgba(0, 0, 0, 0.6);} 
+
+#back-arrow {
+   background-image: url("Images&Icons/backwardsarrow.svg");
+   background-repeat: no-repeat;
+   background-size: 5vw 2vh;
+   width: 5vw;
+   height: 2vh;
+   position: relative;
+   transform: translateY(-50%);
+   top: 50%;
+   bottom: 50%;
+   opacity: 0;
+}
+
+#forward-arrow {
+   background-image: url("Images&Icons/forwardarrow.svg");
+   background-repeat: no-repeat;
+   background-size: 5vw 2vh;
+   width: 5vw;
+   height: 2vh;
+   position: relative;
+   float: right;
+   transform: translateY(-6%);
+   top: -6%;
+}
+
+#chapter-text {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 20px;
+   line-height: 32px;
+   text-align: left;
+}
+
+p {letter-spacing: 0.7px;}
+h1 {letter-spacing: 0.7px;}
